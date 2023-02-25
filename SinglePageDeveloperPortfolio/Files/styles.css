@@ -27,7 +27,7 @@ VARIABLES
 }
 
 body {
- font-family: var(--ff-primary);
+ font-family: var(--ff-primary), sans-serif;
  background: var(--clr-dark);
  color: var(--clr-light-grey);
  line-height: 1.5;
@@ -79,6 +79,7 @@ button {
 .section-center {
  width: 95vw;
  margin: 0 auto;
+ display: block;
 }
 
 /* 
@@ -144,7 +145,6 @@ MAIN CONTENT
 /* skills section */
 
 .skills {
- margin: 4rem 0;
  text-align: center;
  padding: 2rem 0;
  border-top: 1px solid var(--clr-white);
@@ -187,3 +187,18 @@ MAIN CONTENT
  text-transform: uppercase;
 }
 /* contact section */
+
+.contact-section {
+ border-bottom: 1px solid var(--clr-white);
+}
+
+input[type=text], textarea {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+ border: none;
+ border-bottom: 1px solid var(--clr-white);
+ background-color: transparent;
+ text-transform: uppercase;
+}
