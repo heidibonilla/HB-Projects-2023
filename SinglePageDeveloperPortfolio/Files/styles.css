@@ -28,7 +28,6 @@ VARIABLES
 
 body {
  font-family: var(--ff-primary), sans-serif;
- background: var(--clr-dark);
  color: var(--clr-light-grey);
  line-height: 1.5;
  font-size: 1rem;
@@ -71,16 +70,22 @@ button {
  text-underline-offset: 1rem;
 }
 
+section {
+ width: 100vw;
+ display: block;
+ background-color: #151515;
+}
+
+.section-center {
+ padding: 2rem;
+}
+
 .btn {
  padding: 1rem;
  margin-top: 1rem;
 }
 
-.section-center {
- width: 95vw;
- margin: 0 auto;
- display: block;
-}
+
 
 /* 
 ================
@@ -90,8 +95,6 @@ HEADER SECTION
 
 .intro-header {
  position: absolute;
- left: 50%;
- margin-left: -75px;
 }
 
 .navbar {
@@ -145,13 +148,17 @@ MAIN CONTENT
 /* skills section */
 
 .skills {
+ 
+}
+
+.skill-section {
  text-align: center;
- padding: 2rem 0;
- border-top: 1px solid var(--clr-white);
- border-bottom: 1px solid var(--clr-white);
  display: flex;
  flex-direction: column;
  gap: 1.5rem;
+ border-top: 1px solid var(--clr-white);
+ border-bottom: 1px solid var(--clr-white);
+ padding: 2rem 0;
 }
 
 /* projects section */
@@ -190,6 +197,12 @@ MAIN CONTENT
 
 .contact-section {
  border-bottom: 1px solid var(--clr-white);
+ padding-bottom: 4rem;
+}
+
+.contact {
+ background-color: #242424;
+ text-align: center;
 }
 
 input[type=text], textarea {
@@ -201,4 +214,9 @@ input[type=text], textarea {
  border-bottom: 1px solid var(--clr-white);
  background-color: transparent;
  text-transform: uppercase;
+ font-family: var(--ff-primary);
+}
+
+form {
+ text-align: right;
 }
