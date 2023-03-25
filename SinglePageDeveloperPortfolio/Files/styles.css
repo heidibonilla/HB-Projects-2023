@@ -248,7 +248,7 @@ TABLETS
     font-size: 2rem;
   }
 
-  .nav {
+  .nav, .nav-hero {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -259,12 +259,8 @@ TABLETS
     width: 20vw;
   }
 
-  .profile-picture {
-    z-index: 2;
-  }
-
-  .introduction-text {
-    z-index: 1;
+  .position {
+    position: a;
   }
 
   footer .section-center {
