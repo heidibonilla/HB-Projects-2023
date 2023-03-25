@@ -77,7 +77,7 @@ section {
 }
 
 .section-center {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .btn {
@@ -91,15 +91,14 @@ HEADER SECTION
 ================
 */
 
-.intro-header,
-.introduction {
+.hero, .footer {
   position: relative;
 }
 
-.navbar {
+.nav-hero {
   position: absolute;
-  background-color: transparent;
-  z-index: 3;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .nav {
@@ -226,10 +225,6 @@ form {
 
 .footer {
   background-color: #242424;
-}
-
-footer .nav {
-  margin: auto;
 }
 
 /* MEDIA QUERIES */
