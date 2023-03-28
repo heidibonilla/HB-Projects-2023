@@ -270,6 +270,14 @@ TABLETS
     text-align: left;
   }
 
+  .skill-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 50px;
+    text-align: left;
+  }
+
   footer .section-center {
     padding: 2rem 0;
   }
