@@ -185,7 +185,6 @@ MAIN CONTENT
 /* contact section */
 
 .contact-section {
-  border-bottom: 1px solid var(--clr-white);
   padding-bottom: 4rem;
 }
 
@@ -246,6 +245,11 @@ TABLETS
     padding: 0 2rem;
   }
 
+  .nav {
+    padding: 2rem;
+    border-top: 1px solid var(--clr-white);
+  }
+
   .socials {
     width: 20vw;
   }
@@ -274,7 +278,8 @@ TABLETS
     text-align: left;
   }
 
-  footer .section-center {
-    padding: 2rem 0;
+  .contact-section {
+    margin: 0 auto;
+    max-width: 450px;
   }
 }
