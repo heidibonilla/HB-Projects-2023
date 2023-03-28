@@ -80,11 +80,6 @@ section {
   padding: 1rem;
 }
 
-.btn {
-  padding: 1rem;
-  margin-top: 1rem;
-}
-
 /* 
 ================
 HEADER SECTION
@@ -259,8 +254,20 @@ TABLETS
     width: 20vw;
   }
 
-  .position {
-    position: a;
+  .profile-picture {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .profile-picture img {
+    width: 332px;
+  }
+
+  .introduction-text {
+    position: absolute;
+    top: 30%;
+    width: 450px;
+    text-align: left;
   }
 
   footer .section-center {
