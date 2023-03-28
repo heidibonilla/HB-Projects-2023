@@ -239,10 +239,6 @@ TABLETS
     font-size: 2.5rem;
   }
 
-  h3 {
-    font-size: 2rem;
-  }
-
   .nav, .nav-hero {
     width: 100%;
     display: flex;
@@ -270,7 +266,7 @@ TABLETS
     text-align: left;
   }
 
-  .skill-section {
+  .skill-section, .projects-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
