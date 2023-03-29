@@ -187,8 +187,17 @@ MAIN CONTENT
   position: relative;
 }
 
-.overlay {
+.project .project-overlay:hover:before {
+  background-color: var(--clr-dark-grey);
+}
+
+.project .project-overlay:hover .overlay {
+  opacity: 1;
+}
+
+.project .overlay {
   display: none;
+  z-index: 2;
 }
 /* contact section */
 
@@ -338,20 +347,17 @@ TABLETS
       display: none;
     }
 
-    .project-overlay .overlay:before {
+    .project .project-overlay:before {
       content: "";
       position: absolute;
       z-index: 1;
       width: 100%;
-      background-color: transparent;
+      background-color: red;
+      transition: background-color 4s;
       cursor: pointer;
     }
 
-    .project-overlay .overlay:hover:before {
-      background-color: #242424;
-    }
-
-    .overlay {
+    .project .overlay {
       display: flex;
       flex-direction: column;
       gap: 4.8rem;
@@ -363,12 +369,6 @@ TABLETS
       opacity: 0;
       transition: opacity .4s
     }
-
-    .project-overlay:hover .overlay {
-      opacity: 1;
-    }
-
-
 
     button:hover {
       color: var(--clr-green);
